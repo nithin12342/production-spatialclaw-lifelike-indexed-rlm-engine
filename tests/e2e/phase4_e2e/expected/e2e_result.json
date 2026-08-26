@@ -1,0 +1,10 @@
+{
+  "specialist": "barlow",
+  "answer": "Answer for Specialist barlow answering 'find clamp similarity with specialty",
+  "tokens": 24,
+  "tools": [
+    "grep_code",
+    "read_file"
+  ],
+  "verified": true
+}

@@ -1,0 +1,2 @@
+{"hash": "22b3efbf0bc7", "code": "similarity_matrix = torch.clamp(similarity_matrix, -50.0, 50.0)", "description": "clamp similarity FP16 overflow", "use_count": 0}
+{"hash": "ce375411101f", "code": "target_indices = torch.clamp(target_indices, 0, vocab_size-1)", "description": "clamp targets", "use_count": 0}

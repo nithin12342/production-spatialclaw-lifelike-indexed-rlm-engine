@@ -1,0 +1,14 @@
+Multimodal Telemetry Log
+========================
+FP16 similarity matrix clamped to [-50.0, 50.0] to prevent overflow in InfoNCELoss.
+BarlowTwins loss uses same clamp at temperature 0.07.
+VICReg variance term uses hinge loss.
+NextTokenPredictionHead outputs logits for NTP.
+Document contains code: similarity_matrix = torch.clamp(similarity_matrix, -50.0, 50.0)
+And also: target_indices = torch.clamp(target_indices, 0, vocab_size-1)
+Metrics: accuracy 0.92, silhouette 0.45, val_loss 1.23 train_loss 0.89
+This is a large document chunk for testing programmatic inspection via code.
+Additional lines to make file sizable for slicing tests.
+Line 10: dummy content for slicing verification.
+Line 11: more content for RLM chunk testing.
+Line 12: final line for document ingestion.

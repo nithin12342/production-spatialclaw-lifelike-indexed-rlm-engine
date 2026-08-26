@@ -1,0 +1,11 @@
+{
+  "specialist": "spatial",
+  "termination_reason": "completed",
+  "steps": 3,
+  "final_answer": {
+    "text": "Answer for find spatial 3d reconstruction clamp via spatial with tool dummy tool 0",
+    "raw_value": "42"
+  },
+  "verification_passed": true,
+  "work_dir": "work_dir/test_production"
+}

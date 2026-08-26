@@ -1,0 +1,22 @@
+{"name": "tool_0", "description": "dummy tool 0", "parameters": {}, "code_ref": "x"}
+{"name": "tool_1", "description": "dummy tool 1", "parameters": {}, "code_ref": "x"}
+{"name": "tool_2", "description": "dummy tool 2", "parameters": {}, "code_ref": "x"}
+{"name": "tool_3", "description": "dummy tool 3", "parameters": {}, "code_ref": "x"}
+{"name": "tool_4", "description": "dummy tool 4", "parameters": {}, "code_ref": "x"}
+{"name": "tool_5", "description": "dummy tool 5", "parameters": {}, "code_ref": "x"}
+{"name": "tool_6", "description": "dummy tool 6", "parameters": {}, "code_ref": "x"}
+{"name": "tool_7", "description": "dummy tool 7", "parameters": {}, "code_ref": "x"}
+{"name": "tool_8", "description": "dummy tool 8", "parameters": {}, "code_ref": "x"}
+{"name": "tool_9", "description": "dummy tool 9", "parameters": {}, "code_ref": "x"}
+{"name": "tool_10", "description": "dummy tool 10", "parameters": {}, "code_ref": "x"}
+{"name": "tool_11", "description": "dummy tool 11", "parameters": {}, "code_ref": "x"}
+{"name": "tool_12", "description": "dummy tool 12", "parameters": {}, "code_ref": "x"}
+{"name": "tool_13", "description": "dummy tool 13", "parameters": {}, "code_ref": "x"}
+{"name": "tool_14", "description": "dummy tool 14", "parameters": {}, "code_ref": "x"}
+{"name": "tool_15", "description": "dummy tool 15", "parameters": {}, "code_ref": "x"}
+{"name": "tool_16", "description": "dummy tool 16", "parameters": {}, "code_ref": "x"}
+{"name": "tool_17", "description": "dummy tool 17", "parameters": {}, "code_ref": "x"}
+{"name": "tool_18", "description": "dummy tool 18", "parameters": {}, "code_ref": "x"}
+{"name": "tool_19", "description": "dummy tool 19", "parameters": {}, "code_ref": "x"}
+{"name": "grep_code", "description": "search codebase via ripgrep pattern code search", "parameters": {"pattern": {"type": "string"}}, "code_ref": "grep"}
+{"name": "read_file", "description": "read file content from disk", "parameters": {"path": {"type": "string"}}, "code_ref": "read"}
