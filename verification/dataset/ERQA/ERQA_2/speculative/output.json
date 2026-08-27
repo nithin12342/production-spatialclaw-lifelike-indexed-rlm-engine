@@ -1,0 +1,18 @@
+{
+  "sample_id": "ERQA_2",
+  "benchmark": "ERQA",
+  "specialist": "spatial",
+  "hits": 2,
+  "results": [
+    {
+      "tool": "answer_spatial",
+      "hit": true
+    },
+    {
+      "tool": "tool_0",
+      "hit": true
+    }
+  ],
+  "verification": "PASS",
+  "timestamp": 1787843107.285746
+}

@@ -1,0 +1,20 @@
+{
+  "benchmark": "BLINK",
+  "sample_id": "blink_synthetic_000",
+  "query": "Sample 0: What is spatial relation in image 0? (synthetic BLINK)",
+  "specialist": "spatial",
+  "tool_hits": [
+    [
+      "read_file",
+      0.091
+    ],
+    [
+      "tool_0",
+      0.0
+    ],
+    [
+      "tool_1",
+      0.0
+    ]
+  ]
+}

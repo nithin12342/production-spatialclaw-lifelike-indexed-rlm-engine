@@ -1,0 +1,12 @@
+{
+  "benchmark": "BLINK",
+  "target": "data\\BLINK",
+  "file_count": 4,
+  "files_sample": [
+    "dataset.json",
+    "sample_000.json",
+    "sample_001.json",
+    "sample_002.json"
+  ],
+  "sha256_first": "a1bed3d3ff4f76f2"
+}

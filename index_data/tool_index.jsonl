@@ -20,3 +20,4 @@
 {"name": "tool_19", "description": "dummy tool 19", "parameters": {}, "code_ref": "x"}
 {"name": "grep_code", "description": "search codebase via ripgrep pattern code search", "parameters": {"pattern": {"type": "string"}}, "code_ref": "grep"}
 {"name": "read_file", "description": "read file content from disk", "parameters": {"path": {"type": "string"}}, "code_ref": "read"}
+{"name": "answer_spatial", "description": "answer spatial trajectory reasoning 3d reconstruct sam3", "parameters": {}, "code_ref": "spatial"}
