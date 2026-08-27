@@ -1,0 +1,16 @@
+{
+  "benchmark": "ERQA",
+  "target": "data\\ERQA",
+  "file_count": 8,
+  "files_sample": [
+    ".cache\\huggingface\\.gitignore",
+    ".cache\\huggingface\\download\\.gitattributes.metadata",
+    ".cache\\huggingface\\download\\README.md.metadata",
+    ".cache\\huggingface\\download\\data\\test-00000-of-00001.parquet.metadata",
+    ".gitattributes",
+    "README.md",
+    "data\\test-00000-of-00001.parquet",
+    "manifest.json"
+  ],
+  "sha256_first": "e7a120ab07b1bc5b"
+}

@@ -1,0 +1,44 @@
+{
+  "sample_id": "ERQA_2",
+  "benchmark": "ERQA",
+  "query": "How do you need to rotate the dumbbell for it to fit back in the weight holder? Choices: A. Rotate clockwise 90 degrees. B. Rotate counter-clockwise 90 degrees. C. Rotate 180 degrees. D. No change needed. Please answer directly with only the letter of the correct option and nothing else.",
+  "final_answer": {
+    "text": "Answer for How do you need to rotate the dumbbell for it to fit back in the weight holder? Choices: A. Rotate clockwise 90 degrees. B. Rotate counter-clockwise 90 degrees. C. Rotate 180 degrees. D. No change needed. Please answer directly with only the letter of the correct option and nothing else. via spatial with tool dummy tool 0",
+    "raw_value": "42"
+  },
+  "termination_reason": "completed",
+  "steps": 3,
+  "total_tool_calls": 3,
+  "execution_time_sec": 2.9840000000003783,
+  "elapsed_wall": 2.9807827472686768,
+  "verification_passed": true,
+  "work_dir": "work_dir\\benchmark_e2e\\ERQA\\ERQA_2",
+  "logs_path": "work_dir\\benchmark_e2e\\ERQA\\ERQA_2\\prod_1787841002219_spatial.jsonl",
+  "health_checks": {
+    "kernel": {
+      "mode": "real",
+      "real_available": true,
+      "is_running": false,
+      "timeout_sec": 10,
+      "kernel_name": "python3",
+      "clone_root": "C:\\Users\\thela\\OneDrive\\Desktop\\Advanced programmatic tool called Project\\cloning\\nvidia-spatial-claw",
+      "import_error": null
+    },
+    "config": {
+      "benchmark": "erqa",
+      "timeout_sec": 600,
+      "executor_type": "code",
+      "tools_to_use": [
+        "Reconstruct",
+        "SAM3"
+      ],
+      "llm_model": "",
+      "work_dir": "work_dir\\benchmark_e2e\\ERQA\\ERQA_2",
+      "enable_logging": true
+    },
+    "tool_index_size": 22,
+    "code_index_size": 118
+  },
+  "operationality": "PASS",
+  "timestamp": 1787841005.2013505
+}

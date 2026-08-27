@@ -1,0 +1,5 @@
+Benchmark: ERQA
+Sample: ERQA_3
+Question: How should the camera turn to align the marker to the marker cap? The camera is attached to the gripper. Choices: A. Right. B. Left. C. Up. D. Down. Please answer directly with only the letter of the correct option and nothing else.
+Ground Truth: {'answer': 'A', 'type': 'str'}
+Metadata: {"benchmark": "ERQA", "source": "test-00000-of-00001.parquet", "is_synthetic": false}

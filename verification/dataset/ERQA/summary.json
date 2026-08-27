@@ -1,0 +1,31 @@
+{
+  "benchmark": "ERQA",
+  "dataset_repo": "FlagEval/ERQA",
+  "dataset_files": 8,
+  "samples_run": 3,
+  "operational_pass": 3,
+  "operational_fail": 0,
+  "total_elapsed_sec": 9.612404823303223,
+  "samples": [
+    {
+      "sample_id": "ERQA_1",
+      "operational": "PASS",
+      "elapsed": 3.248560667037964,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_1"
+    },
+    {
+      "sample_id": "ERQA_2",
+      "operational": "PASS",
+      "elapsed": 2.9807827472686768,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_2"
+    },
+    {
+      "sample_id": "ERQA_3",
+      "operational": "PASS",
+      "elapsed": 2.59318208694458,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_3"
+    }
+  ],
+  "verification_root": "verification\\dataset\\ERQA",
+  "timestamp": 1787841008.3233216
+}

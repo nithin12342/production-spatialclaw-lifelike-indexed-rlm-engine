@@ -1,0 +1,11 @@
+{
+  "step_index": 1,
+  "sample_id": "ERQA_2",
+  "stdout": "Step 1 done, specialist spatial\n",
+  "stderr": "",
+  "error": null,
+  "execution_time_sec": 0.01599999999962165,
+  "sentinel_answer": null,
+  "operational": true,
+  "timestamp": 1787841005.1962214
+}

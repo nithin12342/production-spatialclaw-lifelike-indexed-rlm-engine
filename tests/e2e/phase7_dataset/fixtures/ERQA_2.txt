@@ -1,0 +1,5 @@
+Benchmark: ERQA
+Sample: ERQA_2
+Question: How do you need to rotate the dumbbell for it to fit back in the weight holder? Choices: A. Rotate clockwise 90 degrees. B. Rotate counter-clockwise 90 degrees. C. Rotate 180 degrees. D. No change needed. Please answer directly with only the letter of the correct option and nothing else.
+Ground Truth: {'answer': 'B', 'type': 'str'}
+Metadata: {"benchmark": "ERQA", "source": "test-00000-of-00001.parquet", "is_synthetic": false}

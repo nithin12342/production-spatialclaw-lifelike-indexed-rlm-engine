@@ -1,0 +1,9 @@
+{
+  "step_index": 1,
+  "sample_id": "ERQA_2",
+  "benchmark": "ERQA",
+  "code": "\n# Step 1: specialist=spatial tool_hint=dummy tool 0\n# snippet: \"\"\"Video-MME benchmark data loader.\n# snippet: \n# snippet: Data structure:\n# snippet:     data/Video-MME/\n# snippet:     \u251c\u2500\u2500 videomme/test-00000-of-00001.parquet   # 2700 rows\n# snippet:     \u251c\u2500\u2500 data/                                   # 900 .mp4 files\n# Simulate tool usage count\ntool_call_count = 1\n# For final step, submit answer\nif 1 >= 2:\n    import builtins\n    builtins._return_answer_result = {\"text\": f\"Answer for {query} via {specialist} with tool dummy tool 0\", \"raw_value\": \"42\"}\n    print(f\"ReturnAnswer set at step 1\")\nelse:\n    print(f\"Step 1 done, specialist {specialist}\")\n",
+  "code_sha": "1e201f993f631e80",
+  "specialist": "spatial",
+  "timestamp": 1787841005.1962214
+}

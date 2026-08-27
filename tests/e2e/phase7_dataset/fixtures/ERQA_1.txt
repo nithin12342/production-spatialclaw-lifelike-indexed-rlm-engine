@@ -1,0 +1,5 @@
+Benchmark: ERQA
+Sample: ERQA_1
+Question: If the yellow robot gripper follows the yellow trajectory, what will happen? Choices: A. Robot puts the soda on the wooden steps. B. Robot moves the soda in front of the wooden steps. C. Robot moves the soda to the very top of the wooden steps. D. Robot picks up the soda can and moves it up. Please answer directly with only the letter of the correct option and nothing else.
+Ground Truth: {'answer': 'A', 'type': 'str'}
+Metadata: {"benchmark": "ERQA", "source": "test-00000-of-00001.parquet", "is_synthetic": false}

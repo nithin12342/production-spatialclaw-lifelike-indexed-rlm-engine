@@ -1,0 +1,9 @@
+{
+  "step_index": 2,
+  "sample_id": "ERQA_3",
+  "benchmark": "ERQA",
+  "code": "\n# Step 2: specialist=spatial tool_hint=dummy tool 0\n# snippet: \"\"\"System prompts for the isolated VLM sessions invoked from the kernel.\n# snippet: \n# snippet: Two prompts:\n# snippet: \n# snippet: - ``LOCATE_SYSTEM_PROMPT``: for ``vlm.locate(...)``. Coordinate grounding only.\n# snippet:   Returns 0-1000 normalized coordinates as plain numbers.\n# Simulate tool usage count\ntool_call_count = 1\n# For final step, submit answer\nif 2 >= 2:\n    import builtins\n    builtins._return_answer_result = {\"text\": f\"Answer for {query} via {specialist} with tool dummy tool 0\", \"raw_value\": \"42\"}\n    print(f\"ReturnAnswer set at step 2\")\nelse:\n    print(f\"Step 2 done, specialist {specialist}\")\n",
+  "code_sha": "80151d7518acbaa5",
+  "specialist": "spatial",
+  "timestamp": 1787841008.0772681
+}

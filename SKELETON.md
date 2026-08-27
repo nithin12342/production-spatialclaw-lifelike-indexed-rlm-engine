@@ -15,6 +15,7 @@ LifelikeIndexedProgrammaticEngine — Replaces MCP-style JSON-everything tool fi
 - REQ-007: Verification-first: every node compiles clean + E2E fixture produces expected artifact — SPEC-007
 - REQ-008: Clone nvidia spatial claw (NVlabs/SpatialClaw) repository in separate cloning/ folder and extract useful code via indexed search (extend skill beyond coding: observe SOT first) — SPEC-008
 - REQ-009: Integrate NVlabs/SpatialClaw production-ready kernel+config+loop completely with LifelikeIndexedProgrammaticEngine, production-ready error handling, timeouts, observability — SPEC-009
+- REQ-010: Download benchmark dataset (ERQA/BLINK etc.) to know input/output per step, run 1 program at a time, verify operationality, save each input/output in detailed folder — SPEC-010
 
 ## Bounded Contexts
 
@@ -126,8 +127,25 @@ LifelikeIndexedProgrammaticEngine — Replaces MCP-style JSON-everything tool fi
     ports_in: ["SpecialistChoice <- SpecialistContext", "SnippetHit <- IndexContext", "ToolSpecBatch <- IndexContext", "ExecutionResult <- SpatialClawKernelAdapter"]
     ports_out: ["ProductionResult -> outside"]
 
+### 7. BenchmarkContext (dataset verification)
+- reason_separate: owns benchmark dataset download and step-by-step I/O verification, runs 1 program at a time, saves detailed input/output per step
+- sot_id: SOT-007
+- aggregates:
+  - name: DatasetLoader
+    invariant: "Dataset immutable after download; only verified slices returned; download is idempotent (skip if exists)"
+    entities: [Dataset]
+    value_objects: [DatasetId, Sample, HFRepo]
+    ports_in: ["HFRepo (external)"]
+    ports_out: ["Sample -> VerificationContext"]
+  - name: StepVerifier
+    invariant: "Runs 1 program at a time sequentially, saves detailed input/output per step with checksum, never bulk-loads dataset into LLM"
+    entities: [VerificationRun]
+    value_objects: [StepInput, StepOutput, VerificationArtifact]
+    ports_in: ["Sample <- DatasetLoader", "ExecutionResult <- IntegrationContext"]
+    ports_out: ["VerificationArtifact -> tests/e2e/phase7_dataset/expected"]
+
 ## Data Flow Order
-[SpecialistContext, InspectionContext, IndexContext, ExecutionContext, AcquisitionContext, IntegrationContext]
+[SpecialistContext, InspectionContext, IndexContext, ExecutionContext, AcquisitionContext, IntegrationContext, BenchmarkContext]
 
 ## Folders (Phase 1 output)
 - FOLDER-001: domain/specialist — SpecialistRegistry, LifelikePersona — DIP: domain — Owner: SOT-001
@@ -141,6 +159,9 @@ LifelikeIndexedProgrammaticEngine — Replaces MCP-style JSON-everything tool fi
 - FOLDER-009: cloning — isolated external clones, never imported by domain — DIP: external (outside DIP, isolated) — Owner: SOT-005
 - FOLDER-010: domain/integration — SpatialClawKernelAdapter, SpatialClawConfigAdapter ports — DIP: domain — Owner: SOT-006
 - FOLDER-011: application/integration — SpatialClawOrchestrator production — DIP: application — Owner: SOT-006
+- FOLDER-012: infrastructure/dataset — DatasetLoader HF download — DIP: infrastructure — Owner: SOT-007
+- FOLDER-013: application/benchmark — StepVerifier run-1-by-1 — DIP: application — Owner: SOT-007
+- FOLDER-014: verification/dataset — detailed input/output per step — DIP: external (artifacts) — Owner: SOT-007
 
 ## Files (Phase 2 output)
 - FILE-001: domain/specialist/specialist_registry.py — responsibility: "rank and select specialist" — sot: SOT-001 — must never: touch index I/O
@@ -163,6 +184,9 @@ LifelikeIndexedProgrammaticEngine — Replaces MCP-style JSON-everything tool fi
 - FILE-018: infrastructure/spatial_claw_config_adapter.py — responsibility: "adapt SpatialClaw config production" — sot: SOT-006 — must never: execute code
 - FILE-019: application/integration/spatial_claw_production.py — responsibility: "orchestrate production SpatialClaw loop" — sot: SOT-006 — must never: import clone directly
 - FILE-020: interfaces/production_cli.py — responsibility: "expose production CLI" — sot: SOT-006 — must never: contain business logic
+- FILE-021: infrastructure/dataset_downloader.py — responsibility: "download benchmark dataset HF" — sot: SOT-007 — must never: decide verification logic
+- FILE-022: application/benchmark_verifier.py — responsibility: "run 1 program at a time verifier" — sot: SOT-007 — must never: bulk-load dataset
+- FILE-023: verification/dataset/README.md — responsibility: "document detailed I/O layout" — sot: SOT-007 — must never: contain code
 
 ## Nodes (METHOD-level)
 - METHOD-001: SpecialistRegistry.select_specialist — parent: FILE-001 — deps: [] — priority: critical — acceptance: "given 3 specialist profiles and query 'FP16 clamp', selects barlow specialist with score>0.7 and returns not JSON blob but SpecialistChoice object"
@@ -183,11 +207,15 @@ LifelikeIndexedProgrammaticEngine — Replaces MCP-style JSON-everything tool fi
 - METHOD-016: SpatialClawKernelAdapter.execute — parent: FILE-017 — deps: [FILE-016, METHOD-012] — priority: critical — acceptance: "adapter executes code with timeout, ZMQ bump, interrupt on timeout, fallback mock if jupyter missing, verified with real cell print(42)"
 - METHOD-017: SpatialClawConfigAdapter.load — parent: FILE-018 — deps: [] — priority: high — acceptance: "load priority CLI>JSON>ENV(SPATIAL_AGENT_*)>defaults, expands ${VAR}, timeout_sec 600, tools_to_use [Reconstruct,SAM3]"
 - METHOD-018: SpatialClawOrchestrator.run — parent: FILE-019 — deps: [METHOD-001, METHOD-004, METHOD-006, METHOD-007, METHOD-015, METHOD-016, METHOD-017] — priority: critical — acceptance: "E2E production loop: specialist->indexed tool search->kernel execute->feedback->ReturnAnswer, verified with real fixture, logging to work_dir, health check pass, idempotent"
+- METHOD-019: DatasetDownloader.download — parent: FILE-021 — deps: [] — priority: high — acceptance: "download HF dataset FlagEval/ERQA to data/ERQA, verify file count>0, idempotent skip if exists, save input manifest"
+- METHOD-020: BenchmarkVerifier.verify_program — parent: FILE-022 — deps: [METHOD-019, METHOD-016, METHOD-018] — priority: critical — acceptance: "run 1 program at a time for 1 ERQA sample sequentially, save detailed input/output per step to verification/dataset/ERQA/sample_001/step_*.json, verify operationality (exit code 0, sentinel or max_steps), evidence folder exists"
+- METHOD-021: BenchmarkVerifier.run_all_sequential — parent: FILE-022 — deps: [METHOD-020] — priority: high — acceptance: "run 3 samples sequentially (not parallel), each saves detailed I/O, final artifact verification/dataset/ERQA/summary.json exists with 3 entries"
 
 ## Traceability Chain Example
 REQ-004 -> SPEC-004 -> SOT-003 -> FOLDER-003 -> FILE-006 -> CLASS-ToolIndex -> METHOD-007 -> VERIFY-007
 REQ-008 -> SPEC-008 -> SOT-005 -> FOLDER-009 -> FILE-014 -> CLASS-CloneIndexer -> METHOD-012 -> VERIFY-012
 REQ-009 -> SPEC-009 -> SOT-006 -> FOLDER-010 -> FILE-017 -> CLASS-SpatialClawKernelAdapter -> METHOD-016 -> VERIFY-016
+REQ-010 -> SPEC-010 -> SOT-007 -> FOLDER-012 -> FILE-021 -> CLASS-DatasetDownloader -> METHOD-019 -> VERIFY-019
 
 ## Pattern Library Candidates (populated after verification)
 - (pending) PATTERN-001: IndexedToolSearch (lazy load vs MCP bulk)
