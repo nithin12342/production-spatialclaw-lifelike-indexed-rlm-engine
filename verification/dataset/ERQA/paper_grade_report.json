@@ -1,0 +1,77 @@
+{
+  "methodology": "Same test observes token reduction + performance per sample, sequential 1-program-at-a-time, ERQA 3 samples, Intention Engineering verified",
+  "dataset": {
+    "benchmark": "ERQA",
+    "repo": "FlagEval/ERQA",
+    "total_samples": 400,
+    "tested": 3,
+    "parquet": "data/ERQA/data/test-00000-of-00001.parquet 77MB"
+  },
+  "index_sizes": {
+    "code_entries": 118,
+    "tool_entries": 22,
+    "bulk_code_tokens": 92249,
+    "bulk_tool_tokens": 92
+  },
+  "per_sample": [
+    {
+      "sample_id": "ERQA_1",
+      "bulk_tokens": 92535,
+      "indexed_tokens": 813,
+      "reduction_pct": 99.1,
+      "latency_sec": 3.25,
+      "operational": "PASS",
+      "ground_truth": "A",
+      "final_answer_preview": "Answer for If the yellow robot gripper follows the yellow trajectory, what will happen? Choices: A. ",
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_1"
+    },
+    {
+      "sample_id": "ERQA_2",
+      "bulk_tokens": 92535,
+      "indexed_tokens": 792,
+      "reduction_pct": 99.1,
+      "latency_sec": 1.73,
+      "operational": "PASS",
+      "ground_truth": "B",
+      "final_answer_preview": "Answer for How do you need to rotate the dumbbell for it to fit back in the weight holder? Choices: ",
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_2"
+    },
+    {
+      "sample_id": "ERQA_3",
+      "bulk_tokens": 92535,
+      "indexed_tokens": 777,
+      "reduction_pct": 99.2,
+      "latency_sec": 1.69,
+      "operational": "PASS",
+      "ground_truth": "A",
+      "final_answer_preview": "Answer for How should the camera turn to align the marker to the marker cap? The camera is attached ",
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_3"
+    }
+  ],
+  "aggregate": {
+    "avg_bulk_tokens": 92535,
+    "avg_indexed_tokens": 794,
+    "avg_reduction_pct": 99.1,
+    "avg_latency_sec": 2.23,
+    "operational_accuracy_pct": 100.0,
+    "operational_pass": 3,
+    "total_samples": 3
+  },
+  "spatialclaw_reference": {
+    "paper": "SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning (Cho et al., NVlabs 2026)",
+    "benchmarks": 20,
+    "avg_accuracy": "59.9%",
+    "gain": "+11.2",
+    "vlms": 6,
+    "interface": "code as action, persistent kernel"
+  },
+  "artifacts": {
+    "detailed_folders": [
+      "verification\\dataset\\ERQA\\ERQA_1",
+      "verification\\dataset\\ERQA\\ERQA_2",
+      "verification\\dataset\\ERQA\\ERQA_3"
+    ],
+    "summary": "verification/dataset/ERQA/summary.json",
+    "verification": "each step input/output saved with checksum"
+  }
+}
