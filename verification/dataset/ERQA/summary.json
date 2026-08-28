@@ -2,30 +2,2412 @@
   "benchmark": "ERQA",
   "dataset_repo": "FlagEval/ERQA",
   "dataset_files": 8,
-  "samples_run": 3,
-  "operational_pass": 3,
+  "samples_run": 400,
+  "operational_pass": 400,
   "operational_fail": 0,
-  "total_elapsed_sec": 9.612404823303223,
+  "total_elapsed_sec": 989.7273900508881,
   "samples": [
     {
       "sample_id": "ERQA_1",
       "operational": "PASS",
-      "elapsed": 3.248560667037964,
+      "elapsed": 4.083397150039673,
       "sample_dir": "verification\\dataset\\ERQA\\ERQA_1"
     },
     {
       "sample_id": "ERQA_2",
       "operational": "PASS",
-      "elapsed": 2.9807827472686768,
+      "elapsed": 2.1769790649414062,
       "sample_dir": "verification\\dataset\\ERQA\\ERQA_2"
     },
     {
       "sample_id": "ERQA_3",
       "operational": "PASS",
-      "elapsed": 2.59318208694458,
+      "elapsed": 2.1432693004608154,
       "sample_dir": "verification\\dataset\\ERQA\\ERQA_3"
+    },
+    {
+      "sample_id": "ERQA_4",
+      "operational": "PASS",
+      "elapsed": 2.1346819400787354,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_4"
+    },
+    {
+      "sample_id": "ERQA_5",
+      "operational": "PASS",
+      "elapsed": 2.1631124019622803,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_5"
+    },
+    {
+      "sample_id": "ERQA_6",
+      "operational": "PASS",
+      "elapsed": 2.1581249237060547,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_6"
+    },
+    {
+      "sample_id": "ERQA_7",
+      "operational": "PASS",
+      "elapsed": 2.1540117263793945,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_7"
+    },
+    {
+      "sample_id": "ERQA_8",
+      "operational": "PASS",
+      "elapsed": 2.131373882293701,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_8"
+    },
+    {
+      "sample_id": "ERQA_9",
+      "operational": "PASS",
+      "elapsed": 2.1433117389678955,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_9"
+    },
+    {
+      "sample_id": "ERQA_10",
+      "operational": "PASS",
+      "elapsed": 2.157925605773926,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_10"
+    },
+    {
+      "sample_id": "ERQA_11",
+      "operational": "PASS",
+      "elapsed": 2.128236770629883,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_11"
+    },
+    {
+      "sample_id": "ERQA_12",
+      "operational": "PASS",
+      "elapsed": 2.1672260761260986,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_12"
+    },
+    {
+      "sample_id": "ERQA_13",
+      "operational": "PASS",
+      "elapsed": 2.134178400039673,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_13"
+    },
+    {
+      "sample_id": "ERQA_14",
+      "operational": "PASS",
+      "elapsed": 2.113926887512207,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_14"
+    },
+    {
+      "sample_id": "ERQA_15",
+      "operational": "PASS",
+      "elapsed": 2.1639063358306885,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_15"
+    },
+    {
+      "sample_id": "ERQA_16",
+      "operational": "PASS",
+      "elapsed": 2.2314093112945557,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_16"
+    },
+    {
+      "sample_id": "ERQA_17",
+      "operational": "PASS",
+      "elapsed": 2.413970708847046,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_17"
+    },
+    {
+      "sample_id": "ERQA_18",
+      "operational": "PASS",
+      "elapsed": 2.1262919902801514,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_18"
+    },
+    {
+      "sample_id": "ERQA_19",
+      "operational": "PASS",
+      "elapsed": 2.159836530685425,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_19"
+    },
+    {
+      "sample_id": "ERQA_20",
+      "operational": "PASS",
+      "elapsed": 2.128021717071533,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_20"
+    },
+    {
+      "sample_id": "ERQA_21",
+      "operational": "PASS",
+      "elapsed": 2.175490379333496,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_21"
+    },
+    {
+      "sample_id": "ERQA_22",
+      "operational": "PASS",
+      "elapsed": 2.1787073612213135,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_22"
+    },
+    {
+      "sample_id": "ERQA_23",
+      "operational": "PASS",
+      "elapsed": 2.1559596061706543,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_23"
+    },
+    {
+      "sample_id": "ERQA_24",
+      "operational": "PASS",
+      "elapsed": 2.209123373031616,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_24"
+    },
+    {
+      "sample_id": "ERQA_25",
+      "operational": "PASS",
+      "elapsed": 2.1437273025512695,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_25"
+    },
+    {
+      "sample_id": "ERQA_26",
+      "operational": "PASS",
+      "elapsed": 2.148186206817627,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_26"
+    },
+    {
+      "sample_id": "ERQA_27",
+      "operational": "PASS",
+      "elapsed": 2.117670774459839,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_27"
+    },
+    {
+      "sample_id": "ERQA_28",
+      "operational": "PASS",
+      "elapsed": 2.1964902877807617,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_28"
+    },
+    {
+      "sample_id": "ERQA_29",
+      "operational": "PASS",
+      "elapsed": 2.1752524375915527,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_29"
+    },
+    {
+      "sample_id": "ERQA_30",
+      "operational": "PASS",
+      "elapsed": 2.173140287399292,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_30"
+    },
+    {
+      "sample_id": "ERQA_31",
+      "operational": "PASS",
+      "elapsed": 2.1581315994262695,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_31"
+    },
+    {
+      "sample_id": "ERQA_32",
+      "operational": "PASS",
+      "elapsed": 2.1539552211761475,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_32"
+    },
+    {
+      "sample_id": "ERQA_33",
+      "operational": "PASS",
+      "elapsed": 2.133877992630005,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_33"
+    },
+    {
+      "sample_id": "ERQA_34",
+      "operational": "PASS",
+      "elapsed": 2.1436028480529785,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_34"
+    },
+    {
+      "sample_id": "ERQA_35",
+      "operational": "PASS",
+      "elapsed": 2.137852191925049,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_35"
+    },
+    {
+      "sample_id": "ERQA_36",
+      "operational": "PASS",
+      "elapsed": 2.145029067993164,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_36"
+    },
+    {
+      "sample_id": "ERQA_37",
+      "operational": "PASS",
+      "elapsed": 2.1626758575439453,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_37"
+    },
+    {
+      "sample_id": "ERQA_38",
+      "operational": "PASS",
+      "elapsed": 2.171358346939087,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_38"
+    },
+    {
+      "sample_id": "ERQA_39",
+      "operational": "PASS",
+      "elapsed": 2.1479225158691406,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_39"
+    },
+    {
+      "sample_id": "ERQA_40",
+      "operational": "PASS",
+      "elapsed": 2.1569035053253174,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_40"
+    },
+    {
+      "sample_id": "ERQA_41",
+      "operational": "PASS",
+      "elapsed": 2.1410720348358154,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_41"
+    },
+    {
+      "sample_id": "ERQA_42",
+      "operational": "PASS",
+      "elapsed": 2.1304636001586914,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_42"
+    },
+    {
+      "sample_id": "ERQA_43",
+      "operational": "PASS",
+      "elapsed": 2.1204049587249756,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_43"
+    },
+    {
+      "sample_id": "ERQA_44",
+      "operational": "PASS",
+      "elapsed": 2.3503010272979736,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_44"
+    },
+    {
+      "sample_id": "ERQA_45",
+      "operational": "PASS",
+      "elapsed": 2.169797420501709,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_45"
+    },
+    {
+      "sample_id": "ERQA_46",
+      "operational": "PASS",
+      "elapsed": 2.1186487674713135,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_46"
+    },
+    {
+      "sample_id": "ERQA_47",
+      "operational": "PASS",
+      "elapsed": 2.1186773777008057,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_47"
+    },
+    {
+      "sample_id": "ERQA_48",
+      "operational": "PASS",
+      "elapsed": 2.1634836196899414,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_48"
+    },
+    {
+      "sample_id": "ERQA_49",
+      "operational": "PASS",
+      "elapsed": 2.206369638442993,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_49"
+    },
+    {
+      "sample_id": "ERQA_50",
+      "operational": "PASS",
+      "elapsed": 2.1767313480377197,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_50"
+    },
+    {
+      "sample_id": "ERQA_51",
+      "operational": "PASS",
+      "elapsed": 2.158252716064453,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_51"
+    },
+    {
+      "sample_id": "ERQA_52",
+      "operational": "PASS",
+      "elapsed": 2.1536216735839844,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_52"
+    },
+    {
+      "sample_id": "ERQA_53",
+      "operational": "PASS",
+      "elapsed": 2.1407651901245117,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_53"
+    },
+    {
+      "sample_id": "ERQA_54",
+      "operational": "PASS",
+      "elapsed": 2.135129928588867,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_54"
+    },
+    {
+      "sample_id": "ERQA_55",
+      "operational": "PASS",
+      "elapsed": 2.1596133708953857,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_55"
+    },
+    {
+      "sample_id": "ERQA_56",
+      "operational": "PASS",
+      "elapsed": 2.3076868057250977,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_56"
+    },
+    {
+      "sample_id": "ERQA_57",
+      "operational": "PASS",
+      "elapsed": 2.2036702632904053,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_57"
+    },
+    {
+      "sample_id": "ERQA_58",
+      "operational": "PASS",
+      "elapsed": 2.1510062217712402,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_58"
+    },
+    {
+      "sample_id": "ERQA_59",
+      "operational": "PASS",
+      "elapsed": 2.147980213165283,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_59"
+    },
+    {
+      "sample_id": "ERQA_60",
+      "operational": "PASS",
+      "elapsed": 2.1563057899475098,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_60"
+    },
+    {
+      "sample_id": "ERQA_61",
+      "operational": "PASS",
+      "elapsed": 2.116645097732544,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_61"
+    },
+    {
+      "sample_id": "ERQA_62",
+      "operational": "PASS",
+      "elapsed": 2.1535160541534424,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_62"
+    },
+    {
+      "sample_id": "ERQA_63",
+      "operational": "PASS",
+      "elapsed": 2.1103782653808594,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_63"
+    },
+    {
+      "sample_id": "ERQA_64",
+      "operational": "PASS",
+      "elapsed": 2.137225866317749,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_64"
+    },
+    {
+      "sample_id": "ERQA_65",
+      "operational": "PASS",
+      "elapsed": 2.1852149963378906,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_65"
+    },
+    {
+      "sample_id": "ERQA_66",
+      "operational": "PASS",
+      "elapsed": 2.116460084915161,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_66"
+    },
+    {
+      "sample_id": "ERQA_67",
+      "operational": "PASS",
+      "elapsed": 2.207488536834717,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_67"
+    },
+    {
+      "sample_id": "ERQA_68",
+      "operational": "PASS",
+      "elapsed": 2.1954495906829834,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_68"
+    },
+    {
+      "sample_id": "ERQA_69",
+      "operational": "PASS",
+      "elapsed": 2.140902042388916,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_69"
+    },
+    {
+      "sample_id": "ERQA_70",
+      "operational": "PASS",
+      "elapsed": 2.1165335178375244,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_70"
+    },
+    {
+      "sample_id": "ERQA_71",
+      "operational": "PASS",
+      "elapsed": 2.1207878589630127,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_71"
+    },
+    {
+      "sample_id": "ERQA_72",
+      "operational": "PASS",
+      "elapsed": 2.1368584632873535,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_72"
+    },
+    {
+      "sample_id": "ERQA_73",
+      "operational": "PASS",
+      "elapsed": 2.1401150226593018,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_73"
+    },
+    {
+      "sample_id": "ERQA_74",
+      "operational": "PASS",
+      "elapsed": 2.1853690147399902,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_74"
+    },
+    {
+      "sample_id": "ERQA_75",
+      "operational": "PASS",
+      "elapsed": 2.0863733291625977,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_75"
+    },
+    {
+      "sample_id": "ERQA_76",
+      "operational": "PASS",
+      "elapsed": 2.140317440032959,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_76"
+    },
+    {
+      "sample_id": "ERQA_77",
+      "operational": "PASS",
+      "elapsed": 2.155026912689209,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_77"
+    },
+    {
+      "sample_id": "ERQA_78",
+      "operational": "PASS",
+      "elapsed": 2.1464264392852783,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_78"
+    },
+    {
+      "sample_id": "ERQA_79",
+      "operational": "PASS",
+      "elapsed": 2.1315348148345947,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_79"
+    },
+    {
+      "sample_id": "ERQA_80",
+      "operational": "PASS",
+      "elapsed": 2.1346278190612793,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_80"
+    },
+    {
+      "sample_id": "ERQA_81",
+      "operational": "PASS",
+      "elapsed": 2.1060781478881836,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_81"
+    },
+    {
+      "sample_id": "ERQA_82",
+      "operational": "PASS",
+      "elapsed": 2.1328580379486084,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_82"
+    },
+    {
+      "sample_id": "ERQA_83",
+      "operational": "PASS",
+      "elapsed": 2.1512627601623535,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_83"
+    },
+    {
+      "sample_id": "ERQA_84",
+      "operational": "PASS",
+      "elapsed": 2.1417479515075684,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_84"
+    },
+    {
+      "sample_id": "ERQA_85",
+      "operational": "PASS",
+      "elapsed": 2.127293348312378,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_85"
+    },
+    {
+      "sample_id": "ERQA_86",
+      "operational": "PASS",
+      "elapsed": 2.1173808574676514,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_86"
+    },
+    {
+      "sample_id": "ERQA_87",
+      "operational": "PASS",
+      "elapsed": 2.1571478843688965,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_87"
+    },
+    {
+      "sample_id": "ERQA_88",
+      "operational": "PASS",
+      "elapsed": 2.1294708251953125,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_88"
+    },
+    {
+      "sample_id": "ERQA_89",
+      "operational": "PASS",
+      "elapsed": 2.136434316635132,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_89"
+    },
+    {
+      "sample_id": "ERQA_90",
+      "operational": "PASS",
+      "elapsed": 2.181274175643921,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_90"
+    },
+    {
+      "sample_id": "ERQA_91",
+      "operational": "PASS",
+      "elapsed": 2.162856340408325,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_91"
+    },
+    {
+      "sample_id": "ERQA_92",
+      "operational": "PASS",
+      "elapsed": 2.160076141357422,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_92"
+    },
+    {
+      "sample_id": "ERQA_93",
+      "operational": "PASS",
+      "elapsed": 2.1551103591918945,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_93"
+    },
+    {
+      "sample_id": "ERQA_94",
+      "operational": "PASS",
+      "elapsed": 2.1541316509246826,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_94"
+    },
+    {
+      "sample_id": "ERQA_95",
+      "operational": "PASS",
+      "elapsed": 2.1558187007904053,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_95"
+    },
+    {
+      "sample_id": "ERQA_96",
+      "operational": "PASS",
+      "elapsed": 2.149082899093628,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_96"
+    },
+    {
+      "sample_id": "ERQA_97",
+      "operational": "PASS",
+      "elapsed": 2.1750781536102295,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_97"
+    },
+    {
+      "sample_id": "ERQA_98",
+      "operational": "PASS",
+      "elapsed": 2.1173388957977295,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_98"
+    },
+    {
+      "sample_id": "ERQA_99",
+      "operational": "PASS",
+      "elapsed": 2.152139663696289,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_99"
+    },
+    {
+      "sample_id": "ERQA_100",
+      "operational": "PASS",
+      "elapsed": 2.140221357345581,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_100"
+    },
+    {
+      "sample_id": "ERQA_101",
+      "operational": "PASS",
+      "elapsed": 2.141719341278076,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_101"
+    },
+    {
+      "sample_id": "ERQA_102",
+      "operational": "PASS",
+      "elapsed": 2.2295849323272705,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_102"
+    },
+    {
+      "sample_id": "ERQA_103",
+      "operational": "PASS",
+      "elapsed": 2.131467580795288,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_103"
+    },
+    {
+      "sample_id": "ERQA_104",
+      "operational": "PASS",
+      "elapsed": 2.1407229900360107,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_104"
+    },
+    {
+      "sample_id": "ERQA_105",
+      "operational": "PASS",
+      "elapsed": 2.1684415340423584,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_105"
+    },
+    {
+      "sample_id": "ERQA_106",
+      "operational": "PASS",
+      "elapsed": 2.1369550228118896,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_106"
+    },
+    {
+      "sample_id": "ERQA_107",
+      "operational": "PASS",
+      "elapsed": 2.1140220165252686,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_107"
+    },
+    {
+      "sample_id": "ERQA_108",
+      "operational": "PASS",
+      "elapsed": 2.1806440353393555,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_108"
+    },
+    {
+      "sample_id": "ERQA_109",
+      "operational": "PASS",
+      "elapsed": 2.128225564956665,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_109"
+    },
+    {
+      "sample_id": "ERQA_110",
+      "operational": "PASS",
+      "elapsed": 2.1392390727996826,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_110"
+    },
+    {
+      "sample_id": "ERQA_111",
+      "operational": "PASS",
+      "elapsed": 2.342913866043091,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_111"
+    },
+    {
+      "sample_id": "ERQA_112",
+      "operational": "PASS",
+      "elapsed": 2.1508586406707764,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_112"
+    },
+    {
+      "sample_id": "ERQA_113",
+      "operational": "PASS",
+      "elapsed": 2.135157346725464,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_113"
+    },
+    {
+      "sample_id": "ERQA_114",
+      "operational": "PASS",
+      "elapsed": 2.143270969390869,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_114"
+    },
+    {
+      "sample_id": "ERQA_115",
+      "operational": "PASS",
+      "elapsed": 2.137547254562378,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_115"
+    },
+    {
+      "sample_id": "ERQA_116",
+      "operational": "PASS",
+      "elapsed": 2.1356308460235596,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_116"
+    },
+    {
+      "sample_id": "ERQA_117",
+      "operational": "PASS",
+      "elapsed": 2.164382219314575,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_117"
+    },
+    {
+      "sample_id": "ERQA_118",
+      "operational": "PASS",
+      "elapsed": 2.1624395847320557,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_118"
+    },
+    {
+      "sample_id": "ERQA_119",
+      "operational": "PASS",
+      "elapsed": 2.181645631790161,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_119"
+    },
+    {
+      "sample_id": "ERQA_120",
+      "operational": "PASS",
+      "elapsed": 2.1377406120300293,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_120"
+    },
+    {
+      "sample_id": "ERQA_121",
+      "operational": "PASS",
+      "elapsed": 2.141190767288208,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_121"
+    },
+    {
+      "sample_id": "ERQA_122",
+      "operational": "PASS",
+      "elapsed": 2.161663770675659,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_122"
+    },
+    {
+      "sample_id": "ERQA_123",
+      "operational": "PASS",
+      "elapsed": 2.157106637954712,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_123"
+    },
+    {
+      "sample_id": "ERQA_124",
+      "operational": "PASS",
+      "elapsed": 2.1292736530303955,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_124"
+    },
+    {
+      "sample_id": "ERQA_125",
+      "operational": "PASS",
+      "elapsed": 2.1450741291046143,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_125"
+    },
+    {
+      "sample_id": "ERQA_126",
+      "operational": "PASS",
+      "elapsed": 2.1422970294952393,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_126"
+    },
+    {
+      "sample_id": "ERQA_127",
+      "operational": "PASS",
+      "elapsed": 2.1313424110412598,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_127"
+    },
+    {
+      "sample_id": "ERQA_128",
+      "operational": "PASS",
+      "elapsed": 2.1264126300811768,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_128"
+    },
+    {
+      "sample_id": "ERQA_129",
+      "operational": "PASS",
+      "elapsed": 2.148109197616577,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_129"
+    },
+    {
+      "sample_id": "ERQA_130",
+      "operational": "PASS",
+      "elapsed": 2.1571004390716553,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_130"
+    },
+    {
+      "sample_id": "ERQA_131",
+      "operational": "PASS",
+      "elapsed": 2.1183595657348633,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_131"
+    },
+    {
+      "sample_id": "ERQA_132",
+      "operational": "PASS",
+      "elapsed": 2.1787092685699463,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_132"
+    },
+    {
+      "sample_id": "ERQA_133",
+      "operational": "PASS",
+      "elapsed": 2.136148691177368,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_133"
+    },
+    {
+      "sample_id": "ERQA_134",
+      "operational": "PASS",
+      "elapsed": 2.156358480453491,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_134"
+    },
+    {
+      "sample_id": "ERQA_135",
+      "operational": "PASS",
+      "elapsed": 2.1711645126342773,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_135"
+    },
+    {
+      "sample_id": "ERQA_136",
+      "operational": "PASS",
+      "elapsed": 2.121703624725342,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_136"
+    },
+    {
+      "sample_id": "ERQA_137",
+      "operational": "PASS",
+      "elapsed": 2.1556432247161865,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_137"
+    },
+    {
+      "sample_id": "ERQA_138",
+      "operational": "PASS",
+      "elapsed": 2.1672630310058594,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_138"
+    },
+    {
+      "sample_id": "ERQA_139",
+      "operational": "PASS",
+      "elapsed": 2.136667490005493,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_139"
+    },
+    {
+      "sample_id": "ERQA_140",
+      "operational": "PASS",
+      "elapsed": 2.1600449085235596,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_140"
+    },
+    {
+      "sample_id": "ERQA_141",
+      "operational": "PASS",
+      "elapsed": 2.1621828079223633,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_141"
+    },
+    {
+      "sample_id": "ERQA_142",
+      "operational": "PASS",
+      "elapsed": 2.158264636993408,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_142"
+    },
+    {
+      "sample_id": "ERQA_143",
+      "operational": "PASS",
+      "elapsed": 2.1524384021759033,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_143"
+    },
+    {
+      "sample_id": "ERQA_144",
+      "operational": "PASS",
+      "elapsed": 2.1269092559814453,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_144"
+    },
+    {
+      "sample_id": "ERQA_145",
+      "operational": "PASS",
+      "elapsed": 2.143557071685791,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_145"
+    },
+    {
+      "sample_id": "ERQA_146",
+      "operational": "PASS",
+      "elapsed": 2.1445674896240234,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_146"
+    },
+    {
+      "sample_id": "ERQA_147",
+      "operational": "PASS",
+      "elapsed": 2.142531156539917,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_147"
+    },
+    {
+      "sample_id": "ERQA_148",
+      "operational": "PASS",
+      "elapsed": 2.1409106254577637,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_148"
+    },
+    {
+      "sample_id": "ERQA_149",
+      "operational": "PASS",
+      "elapsed": 2.1467065811157227,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_149"
+    },
+    {
+      "sample_id": "ERQA_150",
+      "operational": "PASS",
+      "elapsed": 2.16719651222229,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_150"
+    },
+    {
+      "sample_id": "ERQA_151",
+      "operational": "PASS",
+      "elapsed": 2.1524040699005127,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_151"
+    },
+    {
+      "sample_id": "ERQA_152",
+      "operational": "PASS",
+      "elapsed": 2.128927707672119,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_152"
+    },
+    {
+      "sample_id": "ERQA_153",
+      "operational": "PASS",
+      "elapsed": 2.146914005279541,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_153"
+    },
+    {
+      "sample_id": "ERQA_154",
+      "operational": "PASS",
+      "elapsed": 2.1682419776916504,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_154"
+    },
+    {
+      "sample_id": "ERQA_155",
+      "operational": "PASS",
+      "elapsed": 2.2347207069396973,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_155"
+    },
+    {
+      "sample_id": "ERQA_156",
+      "operational": "PASS",
+      "elapsed": 2.294846534729004,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_156"
+    },
+    {
+      "sample_id": "ERQA_157",
+      "operational": "PASS",
+      "elapsed": 2.6912384033203125,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_157"
+    },
+    {
+      "sample_id": "ERQA_158",
+      "operational": "PASS",
+      "elapsed": 2.262892007827759,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_158"
+    },
+    {
+      "sample_id": "ERQA_159",
+      "operational": "PASS",
+      "elapsed": 2.1665711402893066,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_159"
+    },
+    {
+      "sample_id": "ERQA_160",
+      "operational": "PASS",
+      "elapsed": 2.124481201171875,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_160"
+    },
+    {
+      "sample_id": "ERQA_161",
+      "operational": "PASS",
+      "elapsed": 2.1884002685546875,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_161"
+    },
+    {
+      "sample_id": "ERQA_162",
+      "operational": "PASS",
+      "elapsed": 2.139295816421509,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_162"
+    },
+    {
+      "sample_id": "ERQA_163",
+      "operational": "PASS",
+      "elapsed": 2.1427290439605713,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_163"
+    },
+    {
+      "sample_id": "ERQA_164",
+      "operational": "PASS",
+      "elapsed": 2.1691267490386963,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_164"
+    },
+    {
+      "sample_id": "ERQA_165",
+      "operational": "PASS",
+      "elapsed": 2.166508197784424,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_165"
+    },
+    {
+      "sample_id": "ERQA_166",
+      "operational": "PASS",
+      "elapsed": 2.1746490001678467,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_166"
+    },
+    {
+      "sample_id": "ERQA_167",
+      "operational": "PASS",
+      "elapsed": 2.145390272140503,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_167"
+    },
+    {
+      "sample_id": "ERQA_168",
+      "operational": "PASS",
+      "elapsed": 2.129293441772461,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_168"
+    },
+    {
+      "sample_id": "ERQA_169",
+      "operational": "PASS",
+      "elapsed": 2.1976022720336914,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_169"
+    },
+    {
+      "sample_id": "ERQA_170",
+      "operational": "PASS",
+      "elapsed": 2.1230733394622803,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_170"
+    },
+    {
+      "sample_id": "ERQA_171",
+      "operational": "PASS",
+      "elapsed": 2.1731996536254883,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_171"
+    },
+    {
+      "sample_id": "ERQA_172",
+      "operational": "PASS",
+      "elapsed": 2.127795934677124,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_172"
+    },
+    {
+      "sample_id": "ERQA_173",
+      "operational": "PASS",
+      "elapsed": 2.1774075031280518,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_173"
+    },
+    {
+      "sample_id": "ERQA_174",
+      "operational": "PASS",
+      "elapsed": 2.196298837661743,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_174"
+    },
+    {
+      "sample_id": "ERQA_175",
+      "operational": "PASS",
+      "elapsed": 2.1257529258728027,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_175"
+    },
+    {
+      "sample_id": "ERQA_176",
+      "operational": "PASS",
+      "elapsed": 2.12986421585083,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_176"
+    },
+    {
+      "sample_id": "ERQA_177",
+      "operational": "PASS",
+      "elapsed": 2.1667633056640625,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_177"
+    },
+    {
+      "sample_id": "ERQA_178",
+      "operational": "PASS",
+      "elapsed": 2.7645556926727295,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_178"
+    },
+    {
+      "sample_id": "ERQA_179",
+      "operational": "PASS",
+      "elapsed": 2.677443027496338,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_179"
+    },
+    {
+      "sample_id": "ERQA_180",
+      "operational": "PASS",
+      "elapsed": 2.183851718902588,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_180"
+    },
+    {
+      "sample_id": "ERQA_181",
+      "operational": "PASS",
+      "elapsed": 2.2384707927703857,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_181"
+    },
+    {
+      "sample_id": "ERQA_182",
+      "operational": "PASS",
+      "elapsed": 2.1725611686706543,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_182"
+    },
+    {
+      "sample_id": "ERQA_183",
+      "operational": "PASS",
+      "elapsed": 2.1315414905548096,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_183"
+    },
+    {
+      "sample_id": "ERQA_184",
+      "operational": "PASS",
+      "elapsed": 2.358410358428955,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_184"
+    },
+    {
+      "sample_id": "ERQA_185",
+      "operational": "PASS",
+      "elapsed": 2.2302873134613037,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_185"
+    },
+    {
+      "sample_id": "ERQA_186",
+      "operational": "PASS",
+      "elapsed": 2.2434561252593994,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_186"
+    },
+    {
+      "sample_id": "ERQA_187",
+      "operational": "PASS",
+      "elapsed": 2.8791520595550537,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_187"
+    },
+    {
+      "sample_id": "ERQA_188",
+      "operational": "PASS",
+      "elapsed": 2.3810296058654785,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_188"
+    },
+    {
+      "sample_id": "ERQA_189",
+      "operational": "PASS",
+      "elapsed": 2.3236658573150635,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_189"
+    },
+    {
+      "sample_id": "ERQA_190",
+      "operational": "PASS",
+      "elapsed": 2.2660248279571533,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_190"
+    },
+    {
+      "sample_id": "ERQA_191",
+      "operational": "PASS",
+      "elapsed": 6.428426027297974,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_191"
+    },
+    {
+      "sample_id": "ERQA_192",
+      "operational": "PASS",
+      "elapsed": 7.791484594345093,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_192"
+    },
+    {
+      "sample_id": "ERQA_193",
+      "operational": "PASS",
+      "elapsed": 2.3362209796905518,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_193"
+    },
+    {
+      "sample_id": "ERQA_194",
+      "operational": "PASS",
+      "elapsed": 2.2099764347076416,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_194"
+    },
+    {
+      "sample_id": "ERQA_195",
+      "operational": "PASS",
+      "elapsed": 2.228865385055542,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_195"
+    },
+    {
+      "sample_id": "ERQA_196",
+      "operational": "PASS",
+      "elapsed": 2.2574267387390137,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_196"
+    },
+    {
+      "sample_id": "ERQA_197",
+      "operational": "PASS",
+      "elapsed": 2.118185520172119,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_197"
+    },
+    {
+      "sample_id": "ERQA_198",
+      "operational": "PASS",
+      "elapsed": 2.1260547637939453,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_198"
+    },
+    {
+      "sample_id": "ERQA_199",
+      "operational": "PASS",
+      "elapsed": 2.178314447402954,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_199"
+    },
+    {
+      "sample_id": "ERQA_200",
+      "operational": "PASS",
+      "elapsed": 2.439406394958496,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_200"
+    },
+    {
+      "sample_id": "ERQA_201",
+      "operational": "PASS",
+      "elapsed": 2.1464927196502686,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_201"
+    },
+    {
+      "sample_id": "ERQA_202",
+      "operational": "PASS",
+      "elapsed": 2.195774555206299,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_202"
+    },
+    {
+      "sample_id": "ERQA_203",
+      "operational": "PASS",
+      "elapsed": 2.153963804244995,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_203"
+    },
+    {
+      "sample_id": "ERQA_204",
+      "operational": "PASS",
+      "elapsed": 2.1565651893615723,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_204"
+    },
+    {
+      "sample_id": "ERQA_205",
+      "operational": "PASS",
+      "elapsed": 2.116504192352295,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_205"
+    },
+    {
+      "sample_id": "ERQA_206",
+      "operational": "PASS",
+      "elapsed": 2.1903820037841797,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_206"
+    },
+    {
+      "sample_id": "ERQA_207",
+      "operational": "PASS",
+      "elapsed": 2.150754928588867,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_207"
+    },
+    {
+      "sample_id": "ERQA_208",
+      "operational": "PASS",
+      "elapsed": 2.1696436405181885,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_208"
+    },
+    {
+      "sample_id": "ERQA_209",
+      "operational": "PASS",
+      "elapsed": 2.1138558387756348,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_209"
+    },
+    {
+      "sample_id": "ERQA_210",
+      "operational": "PASS",
+      "elapsed": 2.1312756538391113,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_210"
+    },
+    {
+      "sample_id": "ERQA_211",
+      "operational": "PASS",
+      "elapsed": 2.1296215057373047,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_211"
+    },
+    {
+      "sample_id": "ERQA_212",
+      "operational": "PASS",
+      "elapsed": 2.1703507900238037,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_212"
+    },
+    {
+      "sample_id": "ERQA_213",
+      "operational": "PASS",
+      "elapsed": 2.1397461891174316,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_213"
+    },
+    {
+      "sample_id": "ERQA_214",
+      "operational": "PASS",
+      "elapsed": 2.176654815673828,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_214"
+    },
+    {
+      "sample_id": "ERQA_215",
+      "operational": "PASS",
+      "elapsed": 2.1362452507019043,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_215"
+    },
+    {
+      "sample_id": "ERQA_216",
+      "operational": "PASS",
+      "elapsed": 2.167088031768799,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_216"
+    },
+    {
+      "sample_id": "ERQA_217",
+      "operational": "PASS",
+      "elapsed": 2.169118642807007,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_217"
+    },
+    {
+      "sample_id": "ERQA_218",
+      "operational": "PASS",
+      "elapsed": 2.30452823638916,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_218"
+    },
+    {
+      "sample_id": "ERQA_219",
+      "operational": "PASS",
+      "elapsed": 2.270551919937134,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_219"
+    },
+    {
+      "sample_id": "ERQA_220",
+      "operational": "PASS",
+      "elapsed": 2.3661978244781494,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_220"
+    },
+    {
+      "sample_id": "ERQA_221",
+      "operational": "PASS",
+      "elapsed": 2.243570327758789,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_221"
+    },
+    {
+      "sample_id": "ERQA_222",
+      "operational": "PASS",
+      "elapsed": 2.121851921081543,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_222"
+    },
+    {
+      "sample_id": "ERQA_223",
+      "operational": "PASS",
+      "elapsed": 2.1308581829071045,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_223"
+    },
+    {
+      "sample_id": "ERQA_224",
+      "operational": "PASS",
+      "elapsed": 2.1352016925811768,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_224"
+    },
+    {
+      "sample_id": "ERQA_225",
+      "operational": "PASS",
+      "elapsed": 2.132899284362793,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_225"
+    },
+    {
+      "sample_id": "ERQA_226",
+      "operational": "PASS",
+      "elapsed": 2.158907413482666,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_226"
+    },
+    {
+      "sample_id": "ERQA_227",
+      "operational": "PASS",
+      "elapsed": 2.138756513595581,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_227"
+    },
+    {
+      "sample_id": "ERQA_228",
+      "operational": "PASS",
+      "elapsed": 2.122809886932373,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_228"
+    },
+    {
+      "sample_id": "ERQA_229",
+      "operational": "PASS",
+      "elapsed": 2.1228604316711426,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_229"
+    },
+    {
+      "sample_id": "ERQA_230",
+      "operational": "PASS",
+      "elapsed": 2.155238628387451,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_230"
+    },
+    {
+      "sample_id": "ERQA_231",
+      "operational": "PASS",
+      "elapsed": 2.149984836578369,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_231"
+    },
+    {
+      "sample_id": "ERQA_232",
+      "operational": "PASS",
+      "elapsed": 2.161128044128418,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_232"
+    },
+    {
+      "sample_id": "ERQA_233",
+      "operational": "PASS",
+      "elapsed": 2.104750156402588,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_233"
+    },
+    {
+      "sample_id": "ERQA_234",
+      "operational": "PASS",
+      "elapsed": 2.116347074508667,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_234"
+    },
+    {
+      "sample_id": "ERQA_235",
+      "operational": "PASS",
+      "elapsed": 2.1921980381011963,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_235"
+    },
+    {
+      "sample_id": "ERQA_236",
+      "operational": "PASS",
+      "elapsed": 2.1159913539886475,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_236"
+    },
+    {
+      "sample_id": "ERQA_237",
+      "operational": "PASS",
+      "elapsed": 2.1505041122436523,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_237"
+    },
+    {
+      "sample_id": "ERQA_238",
+      "operational": "PASS",
+      "elapsed": 2.1172289848327637,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_238"
+    },
+    {
+      "sample_id": "ERQA_239",
+      "operational": "PASS",
+      "elapsed": 2.1073741912841797,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_239"
+    },
+    {
+      "sample_id": "ERQA_240",
+      "operational": "PASS",
+      "elapsed": 2.1535987854003906,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_240"
+    },
+    {
+      "sample_id": "ERQA_241",
+      "operational": "PASS",
+      "elapsed": 2.166170597076416,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_241"
+    },
+    {
+      "sample_id": "ERQA_242",
+      "operational": "PASS",
+      "elapsed": 2.1571710109710693,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_242"
+    },
+    {
+      "sample_id": "ERQA_243",
+      "operational": "PASS",
+      "elapsed": 2.1318445205688477,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_243"
+    },
+    {
+      "sample_id": "ERQA_244",
+      "operational": "PASS",
+      "elapsed": 2.132049083709717,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_244"
+    },
+    {
+      "sample_id": "ERQA_245",
+      "operational": "PASS",
+      "elapsed": 2.1545300483703613,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_245"
+    },
+    {
+      "sample_id": "ERQA_246",
+      "operational": "PASS",
+      "elapsed": 2.106290102005005,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_246"
+    },
+    {
+      "sample_id": "ERQA_247",
+      "operational": "PASS",
+      "elapsed": 2.1528964042663574,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_247"
+    },
+    {
+      "sample_id": "ERQA_248",
+      "operational": "PASS",
+      "elapsed": 2.1007325649261475,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_248"
+    },
+    {
+      "sample_id": "ERQA_249",
+      "operational": "PASS",
+      "elapsed": 2.2212929725646973,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_249"
+    },
+    {
+      "sample_id": "ERQA_250",
+      "operational": "PASS",
+      "elapsed": 2.1552233695983887,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_250"
+    },
+    {
+      "sample_id": "ERQA_251",
+      "operational": "PASS",
+      "elapsed": 2.139188051223755,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_251"
+    },
+    {
+      "sample_id": "ERQA_252",
+      "operational": "PASS",
+      "elapsed": 2.175745964050293,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_252"
+    },
+    {
+      "sample_id": "ERQA_253",
+      "operational": "PASS",
+      "elapsed": 2.1497480869293213,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_253"
+    },
+    {
+      "sample_id": "ERQA_254",
+      "operational": "PASS",
+      "elapsed": 2.14762806892395,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_254"
+    },
+    {
+      "sample_id": "ERQA_255",
+      "operational": "PASS",
+      "elapsed": 2.129758358001709,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_255"
+    },
+    {
+      "sample_id": "ERQA_256",
+      "operational": "PASS",
+      "elapsed": 2.1109371185302734,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_256"
+    },
+    {
+      "sample_id": "ERQA_257",
+      "operational": "PASS",
+      "elapsed": 2.1826069355010986,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_257"
+    },
+    {
+      "sample_id": "ERQA_258",
+      "operational": "PASS",
+      "elapsed": 2.2126553058624268,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_258"
+    },
+    {
+      "sample_id": "ERQA_259",
+      "operational": "PASS",
+      "elapsed": 2.1518800258636475,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_259"
+    },
+    {
+      "sample_id": "ERQA_260",
+      "operational": "PASS",
+      "elapsed": 2.2445061206817627,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_260"
+    },
+    {
+      "sample_id": "ERQA_261",
+      "operational": "PASS",
+      "elapsed": 2.1600961685180664,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_261"
+    },
+    {
+      "sample_id": "ERQA_262",
+      "operational": "PASS",
+      "elapsed": 2.1342008113861084,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_262"
+    },
+    {
+      "sample_id": "ERQA_263",
+      "operational": "PASS",
+      "elapsed": 2.11660099029541,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_263"
+    },
+    {
+      "sample_id": "ERQA_264",
+      "operational": "PASS",
+      "elapsed": 2.14530348777771,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_264"
+    },
+    {
+      "sample_id": "ERQA_265",
+      "operational": "PASS",
+      "elapsed": 2.164738178253174,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_265"
+    },
+    {
+      "sample_id": "ERQA_266",
+      "operational": "PASS",
+      "elapsed": 2.151620388031006,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_266"
+    },
+    {
+      "sample_id": "ERQA_267",
+      "operational": "PASS",
+      "elapsed": 2.268456220626831,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_267"
+    },
+    {
+      "sample_id": "ERQA_268",
+      "operational": "PASS",
+      "elapsed": 2.303152561187744,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_268"
+    },
+    {
+      "sample_id": "ERQA_269",
+      "operational": "PASS",
+      "elapsed": 2.2798519134521484,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_269"
+    },
+    {
+      "sample_id": "ERQA_270",
+      "operational": "PASS",
+      "elapsed": 2.2221896648406982,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_270"
+    },
+    {
+      "sample_id": "ERQA_271",
+      "operational": "PASS",
+      "elapsed": 2.115943670272827,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_271"
+    },
+    {
+      "sample_id": "ERQA_272",
+      "operational": "PASS",
+      "elapsed": 2.1229655742645264,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_272"
+    },
+    {
+      "sample_id": "ERQA_273",
+      "operational": "PASS",
+      "elapsed": 2.137633800506592,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_273"
+    },
+    {
+      "sample_id": "ERQA_274",
+      "operational": "PASS",
+      "elapsed": 2.1214585304260254,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_274"
+    },
+    {
+      "sample_id": "ERQA_275",
+      "operational": "PASS",
+      "elapsed": 2.17471981048584,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_275"
+    },
+    {
+      "sample_id": "ERQA_276",
+      "operational": "PASS",
+      "elapsed": 2.1420557498931885,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_276"
+    },
+    {
+      "sample_id": "ERQA_277",
+      "operational": "PASS",
+      "elapsed": 2.162914991378784,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_277"
+    },
+    {
+      "sample_id": "ERQA_278",
+      "operational": "PASS",
+      "elapsed": 2.115347385406494,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_278"
+    },
+    {
+      "sample_id": "ERQA_279",
+      "operational": "PASS",
+      "elapsed": 2.176729917526245,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_279"
+    },
+    {
+      "sample_id": "ERQA_280",
+      "operational": "PASS",
+      "elapsed": 2.1497530937194824,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_280"
+    },
+    {
+      "sample_id": "ERQA_281",
+      "operational": "PASS",
+      "elapsed": 2.1551756858825684,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_281"
+    },
+    {
+      "sample_id": "ERQA_282",
+      "operational": "PASS",
+      "elapsed": 2.1372427940368652,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_282"
+    },
+    {
+      "sample_id": "ERQA_283",
+      "operational": "PASS",
+      "elapsed": 2.117725133895874,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_283"
+    },
+    {
+      "sample_id": "ERQA_284",
+      "operational": "PASS",
+      "elapsed": 2.1368212699890137,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_284"
+    },
+    {
+      "sample_id": "ERQA_285",
+      "operational": "PASS",
+      "elapsed": 2.1328721046447754,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_285"
+    },
+    {
+      "sample_id": "ERQA_286",
+      "operational": "PASS",
+      "elapsed": 2.136228322982788,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_286"
+    },
+    {
+      "sample_id": "ERQA_287",
+      "operational": "PASS",
+      "elapsed": 2.1488850116729736,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_287"
+    },
+    {
+      "sample_id": "ERQA_288",
+      "operational": "PASS",
+      "elapsed": 2.1521108150482178,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_288"
+    },
+    {
+      "sample_id": "ERQA_289",
+      "operational": "PASS",
+      "elapsed": 2.154677391052246,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_289"
+    },
+    {
+      "sample_id": "ERQA_290",
+      "operational": "PASS",
+      "elapsed": 2.1529347896575928,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_290"
+    },
+    {
+      "sample_id": "ERQA_291",
+      "operational": "PASS",
+      "elapsed": 2.127664804458618,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_291"
+    },
+    {
+      "sample_id": "ERQA_292",
+      "operational": "PASS",
+      "elapsed": 2.20023512840271,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_292"
+    },
+    {
+      "sample_id": "ERQA_293",
+      "operational": "PASS",
+      "elapsed": 2.170825242996216,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_293"
+    },
+    {
+      "sample_id": "ERQA_294",
+      "operational": "PASS",
+      "elapsed": 2.1536338329315186,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_294"
+    },
+    {
+      "sample_id": "ERQA_295",
+      "operational": "PASS",
+      "elapsed": 2.1506495475769043,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_295"
+    },
+    {
+      "sample_id": "ERQA_296",
+      "operational": "PASS",
+      "elapsed": 2.093815803527832,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_296"
+    },
+    {
+      "sample_id": "ERQA_297",
+      "operational": "PASS",
+      "elapsed": 2.1443428993225098,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_297"
+    },
+    {
+      "sample_id": "ERQA_298",
+      "operational": "PASS",
+      "elapsed": 2.1633641719818115,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_298"
+    },
+    {
+      "sample_id": "ERQA_299",
+      "operational": "PASS",
+      "elapsed": 2.1404969692230225,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_299"
+    },
+    {
+      "sample_id": "ERQA_300",
+      "operational": "PASS",
+      "elapsed": 2.1308209896087646,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_300"
+    },
+    {
+      "sample_id": "ERQA_301",
+      "operational": "PASS",
+      "elapsed": 2.126962423324585,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_301"
+    },
+    {
+      "sample_id": "ERQA_302",
+      "operational": "PASS",
+      "elapsed": 2.150075674057007,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_302"
+    },
+    {
+      "sample_id": "ERQA_303",
+      "operational": "PASS",
+      "elapsed": 2.1566481590270996,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_303"
+    },
+    {
+      "sample_id": "ERQA_304",
+      "operational": "PASS",
+      "elapsed": 2.261331081390381,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_304"
+    },
+    {
+      "sample_id": "ERQA_305",
+      "operational": "PASS",
+      "elapsed": 2.231412887573242,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_305"
+    },
+    {
+      "sample_id": "ERQA_306",
+      "operational": "PASS",
+      "elapsed": 2.2464494705200195,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_306"
+    },
+    {
+      "sample_id": "ERQA_307",
+      "operational": "PASS",
+      "elapsed": 2.199519157409668,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_307"
+    },
+    {
+      "sample_id": "ERQA_308",
+      "operational": "PASS",
+      "elapsed": 2.1356234550476074,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_308"
+    },
+    {
+      "sample_id": "ERQA_309",
+      "operational": "PASS",
+      "elapsed": 2.1076018810272217,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_309"
+    },
+    {
+      "sample_id": "ERQA_310",
+      "operational": "PASS",
+      "elapsed": 2.1693496704101562,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_310"
+    },
+    {
+      "sample_id": "ERQA_311",
+      "operational": "PASS",
+      "elapsed": 2.128612995147705,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_311"
+    },
+    {
+      "sample_id": "ERQA_312",
+      "operational": "PASS",
+      "elapsed": 2.0964295864105225,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_312"
+    },
+    {
+      "sample_id": "ERQA_313",
+      "operational": "PASS",
+      "elapsed": 2.1315267086029053,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_313"
+    },
+    {
+      "sample_id": "ERQA_314",
+      "operational": "PASS",
+      "elapsed": 2.1483945846557617,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_314"
+    },
+    {
+      "sample_id": "ERQA_315",
+      "operational": "PASS",
+      "elapsed": 2.108623743057251,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_315"
+    },
+    {
+      "sample_id": "ERQA_316",
+      "operational": "PASS",
+      "elapsed": 2.133809804916382,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_316"
+    },
+    {
+      "sample_id": "ERQA_317",
+      "operational": "PASS",
+      "elapsed": 2.1290392875671387,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_317"
+    },
+    {
+      "sample_id": "ERQA_318",
+      "operational": "PASS",
+      "elapsed": 2.110589027404785,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_318"
+    },
+    {
+      "sample_id": "ERQA_319",
+      "operational": "PASS",
+      "elapsed": 2.128366708755493,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_319"
+    },
+    {
+      "sample_id": "ERQA_320",
+      "operational": "PASS",
+      "elapsed": 2.140305519104004,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_320"
+    },
+    {
+      "sample_id": "ERQA_321",
+      "operational": "PASS",
+      "elapsed": 2.1101934909820557,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_321"
+    },
+    {
+      "sample_id": "ERQA_322",
+      "operational": "PASS",
+      "elapsed": 2.147498846054077,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_322"
+    },
+    {
+      "sample_id": "ERQA_323",
+      "operational": "PASS",
+      "elapsed": 2.1276636123657227,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_323"
+    },
+    {
+      "sample_id": "ERQA_324",
+      "operational": "PASS",
+      "elapsed": 2.15714693069458,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_324"
+    },
+    {
+      "sample_id": "ERQA_325",
+      "operational": "PASS",
+      "elapsed": 2.1709749698638916,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_325"
+    },
+    {
+      "sample_id": "ERQA_326",
+      "operational": "PASS",
+      "elapsed": 2.1152806282043457,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_326"
+    },
+    {
+      "sample_id": "ERQA_327",
+      "operational": "PASS",
+      "elapsed": 2.120539426803589,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_327"
+    },
+    {
+      "sample_id": "ERQA_328",
+      "operational": "PASS",
+      "elapsed": 2.131223201751709,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_328"
+    },
+    {
+      "sample_id": "ERQA_329",
+      "operational": "PASS",
+      "elapsed": 2.153641700744629,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_329"
+    },
+    {
+      "sample_id": "ERQA_330",
+      "operational": "PASS",
+      "elapsed": 2.16135835647583,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_330"
+    },
+    {
+      "sample_id": "ERQA_331",
+      "operational": "PASS",
+      "elapsed": 2.1566295623779297,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_331"
+    },
+    {
+      "sample_id": "ERQA_332",
+      "operational": "PASS",
+      "elapsed": 2.155975580215454,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_332"
+    },
+    {
+      "sample_id": "ERQA_333",
+      "operational": "PASS",
+      "elapsed": 2.230745792388916,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_333"
+    },
+    {
+      "sample_id": "ERQA_334",
+      "operational": "PASS",
+      "elapsed": 2.1885204315185547,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_334"
+    },
+    {
+      "sample_id": "ERQA_335",
+      "operational": "PASS",
+      "elapsed": 2.114863634109497,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_335"
+    },
+    {
+      "sample_id": "ERQA_336",
+      "operational": "PASS",
+      "elapsed": 2.10750675201416,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_336"
+    },
+    {
+      "sample_id": "ERQA_337",
+      "operational": "PASS",
+      "elapsed": 2.1238529682159424,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_337"
+    },
+    {
+      "sample_id": "ERQA_338",
+      "operational": "PASS",
+      "elapsed": 2.123508930206299,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_338"
+    },
+    {
+      "sample_id": "ERQA_339",
+      "operational": "PASS",
+      "elapsed": 2.1402056217193604,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_339"
+    },
+    {
+      "sample_id": "ERQA_340",
+      "operational": "PASS",
+      "elapsed": 2.1358938217163086,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_340"
+    },
+    {
+      "sample_id": "ERQA_341",
+      "operational": "PASS",
+      "elapsed": 2.1527950763702393,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_341"
+    },
+    {
+      "sample_id": "ERQA_342",
+      "operational": "PASS",
+      "elapsed": 2.131575584411621,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_342"
+    },
+    {
+      "sample_id": "ERQA_343",
+      "operational": "PASS",
+      "elapsed": 2.1340994834899902,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_343"
+    },
+    {
+      "sample_id": "ERQA_344",
+      "operational": "PASS",
+      "elapsed": 2.120295524597168,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_344"
+    },
+    {
+      "sample_id": "ERQA_345",
+      "operational": "PASS",
+      "elapsed": 2.1426773071289062,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_345"
+    },
+    {
+      "sample_id": "ERQA_346",
+      "operational": "PASS",
+      "elapsed": 2.115736961364746,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_346"
+    },
+    {
+      "sample_id": "ERQA_347",
+      "operational": "PASS",
+      "elapsed": 2.11431622505188,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_347"
+    },
+    {
+      "sample_id": "ERQA_348",
+      "operational": "PASS",
+      "elapsed": 2.122952461242676,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_348"
+    },
+    {
+      "sample_id": "ERQA_349",
+      "operational": "PASS",
+      "elapsed": 2.1158206462860107,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_349"
+    },
+    {
+      "sample_id": "ERQA_350",
+      "operational": "PASS",
+      "elapsed": 2.17033052444458,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_350"
+    },
+    {
+      "sample_id": "ERQA_351",
+      "operational": "PASS",
+      "elapsed": 2.1457109451293945,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_351"
+    },
+    {
+      "sample_id": "ERQA_352",
+      "operational": "PASS",
+      "elapsed": 2.143148183822632,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_352"
+    },
+    {
+      "sample_id": "ERQA_353",
+      "operational": "PASS",
+      "elapsed": 2.1427969932556152,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_353"
+    },
+    {
+      "sample_id": "ERQA_354",
+      "operational": "PASS",
+      "elapsed": 2.2036311626434326,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_354"
+    },
+    {
+      "sample_id": "ERQA_355",
+      "operational": "PASS",
+      "elapsed": 2.2508716583251953,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_355"
+    },
+    {
+      "sample_id": "ERQA_356",
+      "operational": "PASS",
+      "elapsed": 2.228719711303711,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_356"
+    },
+    {
+      "sample_id": "ERQA_357",
+      "operational": "PASS",
+      "elapsed": 2.160409927368164,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_357"
+    },
+    {
+      "sample_id": "ERQA_358",
+      "operational": "PASS",
+      "elapsed": 2.1291348934173584,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_358"
+    },
+    {
+      "sample_id": "ERQA_359",
+      "operational": "PASS",
+      "elapsed": 2.161705732345581,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_359"
+    },
+    {
+      "sample_id": "ERQA_360",
+      "operational": "PASS",
+      "elapsed": 2.189185619354248,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_360"
+    },
+    {
+      "sample_id": "ERQA_361",
+      "operational": "PASS",
+      "elapsed": 2.150144100189209,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_361"
+    },
+    {
+      "sample_id": "ERQA_362",
+      "operational": "PASS",
+      "elapsed": 2.199474573135376,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_362"
+    },
+    {
+      "sample_id": "ERQA_363",
+      "operational": "PASS",
+      "elapsed": 2.154083728790283,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_363"
+    },
+    {
+      "sample_id": "ERQA_364",
+      "operational": "PASS",
+      "elapsed": 2.2000796794891357,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_364"
+    },
+    {
+      "sample_id": "ERQA_365",
+      "operational": "PASS",
+      "elapsed": 2.147834062576294,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_365"
+    },
+    {
+      "sample_id": "ERQA_366",
+      "operational": "PASS",
+      "elapsed": 2.2061502933502197,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_366"
+    },
+    {
+      "sample_id": "ERQA_367",
+      "operational": "PASS",
+      "elapsed": 2.1432971954345703,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_367"
+    },
+    {
+      "sample_id": "ERQA_368",
+      "operational": "PASS",
+      "elapsed": 2.1767303943634033,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_368"
+    },
+    {
+      "sample_id": "ERQA_369",
+      "operational": "PASS",
+      "elapsed": 2.1451356410980225,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_369"
+    },
+    {
+      "sample_id": "ERQA_370",
+      "operational": "PASS",
+      "elapsed": 2.1343281269073486,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_370"
+    },
+    {
+      "sample_id": "ERQA_371",
+      "operational": "PASS",
+      "elapsed": 2.142080545425415,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_371"
+    },
+    {
+      "sample_id": "ERQA_372",
+      "operational": "PASS",
+      "elapsed": 2.226120710372925,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_372"
+    },
+    {
+      "sample_id": "ERQA_373",
+      "operational": "PASS",
+      "elapsed": 2.1638574600219727,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_373"
+    },
+    {
+      "sample_id": "ERQA_374",
+      "operational": "PASS",
+      "elapsed": 2.1688270568847656,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_374"
+    },
+    {
+      "sample_id": "ERQA_375",
+      "operational": "PASS",
+      "elapsed": 2.1494698524475098,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_375"
+    },
+    {
+      "sample_id": "ERQA_376",
+      "operational": "PASS",
+      "elapsed": 2.1545844078063965,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_376"
+    },
+    {
+      "sample_id": "ERQA_377",
+      "operational": "PASS",
+      "elapsed": 2.148364782333374,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_377"
+    },
+    {
+      "sample_id": "ERQA_378",
+      "operational": "PASS",
+      "elapsed": 2.193934202194214,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_378"
+    },
+    {
+      "sample_id": "ERQA_379",
+      "operational": "PASS",
+      "elapsed": 2.1222083568573,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_379"
+    },
+    {
+      "sample_id": "ERQA_380",
+      "operational": "PASS",
+      "elapsed": 2.327249765396118,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_380"
+    },
+    {
+      "sample_id": "ERQA_381",
+      "operational": "PASS",
+      "elapsed": 2.1500160694122314,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_381"
+    },
+    {
+      "sample_id": "ERQA_382",
+      "operational": "PASS",
+      "elapsed": 2.1241977214813232,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_382"
+    },
+    {
+      "sample_id": "ERQA_383",
+      "operational": "PASS",
+      "elapsed": 2.15659761428833,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_383"
+    },
+    {
+      "sample_id": "ERQA_384",
+      "operational": "PASS",
+      "elapsed": 2.1713762283325195,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_384"
+    },
+    {
+      "sample_id": "ERQA_385",
+      "operational": "PASS",
+      "elapsed": 2.149695634841919,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_385"
+    },
+    {
+      "sample_id": "ERQA_386",
+      "operational": "PASS",
+      "elapsed": 2.2040722370147705,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_386"
+    },
+    {
+      "sample_id": "ERQA_387",
+      "operational": "PASS",
+      "elapsed": 2.1337287425994873,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_387"
+    },
+    {
+      "sample_id": "ERQA_388",
+      "operational": "PASS",
+      "elapsed": 2.166165828704834,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_388"
+    },
+    {
+      "sample_id": "ERQA_389",
+      "operational": "PASS",
+      "elapsed": 2.1507740020751953,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_389"
+    },
+    {
+      "sample_id": "ERQA_390",
+      "operational": "PASS",
+      "elapsed": 2.1559762954711914,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_390"
+    },
+    {
+      "sample_id": "ERQA_391",
+      "operational": "PASS",
+      "elapsed": 2.142958641052246,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_391"
+    },
+    {
+      "sample_id": "ERQA_392",
+      "operational": "PASS",
+      "elapsed": 2.215131998062134,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_392"
+    },
+    {
+      "sample_id": "ERQA_393",
+      "operational": "PASS",
+      "elapsed": 2.1883225440979004,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_393"
+    },
+    {
+      "sample_id": "ERQA_394",
+      "operational": "PASS",
+      "elapsed": 2.1694016456604004,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_394"
+    },
+    {
+      "sample_id": "ERQA_395",
+      "operational": "PASS",
+      "elapsed": 2.1395206451416016,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_395"
+    },
+    {
+      "sample_id": "ERQA_396",
+      "operational": "PASS",
+      "elapsed": 2.1797611713409424,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_396"
+    },
+    {
+      "sample_id": "ERQA_397",
+      "operational": "PASS",
+      "elapsed": 2.1688928604125977,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_397"
+    },
+    {
+      "sample_id": "ERQA_398",
+      "operational": "PASS",
+      "elapsed": 2.233304023742676,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_398"
+    },
+    {
+      "sample_id": "ERQA_399",
+      "operational": "PASS",
+      "elapsed": 2.1323952674865723,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_399"
+    },
+    {
+      "sample_id": "ERQA_400",
+      "operational": "PASS",
+      "elapsed": 2.2671289443969727,
+      "sample_dir": "verification\\dataset\\ERQA\\ERQA_400"
     }
   ],
   "verification_root": "verification\\dataset\\ERQA",
-  "timestamp": 1787841008.3233216
+  "timestamp": 1787887910.2095609
 }
